@@ -1,0 +1,373 @@
+* {
+	
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	max-width: 1084px;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+header {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	height: 60px;
+}
+header::after {
+	content: '';
+	position: absolute; 
+	background-color: #0E0C38;
+	width: 100%;
+	height: 850px;
+	z-index: -4;
+	left: 0;
+	top: 0;
+}
+.portfolio {
+	color: white;
+	font-size: 70px;
+	font-family: poppins;
+	font-weight: 400;
+	letter-spacing: 0px;
+	margin-left: 25px;
+	margin-top: 15px;
+	z-index: 1;
+	
+}
+nav ul {
+	position: relative;
+	right: 250px;
+	margin-top: 50px;
+	width: 250px;
+	height: 31px;
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+	color: white;
+	z-index: 2;
+}
+
+nav ul li:hover {
+	border-top: 3px solid #FF0513;
+	border-bottom: 3px solid #FF0513;
+	transition: 150ms;
+
+
+
+}
+.layer {
+	position: absolute;
+	left: 320px;
+}
+.getstarted {
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+	color: white;
+	position: absolute;
+	background-color: #0E0C38;
+	top: 22px;
+	right: 85px;
+	width: 130px;
+	height: 40px;
+	border: 2px solid #707070;
+	border-radius: 50px;
+	cursor: pointer;
+	z-index: 2;
+}
+.getstarted:hover {
+	background-color: #FF0513;
+	transition: 150ms;
+}
+.hero-text {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	
+
+}
+.some-text {
+	color: white;
+	display: block;
+	position: relative;
+	top: 180px;
+	right: 180px;
+	width: 600px;
+	height: 350px;
+}
+.hello {
+	font-size: 35px;
+	position: relative;
+	top: 15px;		
+
+}
+.name {
+	font-size: 70px;
+	font-weight: bold;
+
+}
+.name1 {
+	font-size: 70px;
+	font-weight: bold;
+	position: relative;
+	bottom: 25px;
+}
+.info {
+	font-size: 20px;
+	position: relative;
+	bottom: 25px;
+}
+.uiux {
+	color: #FF0513;
+}
+.find {
+	font-size: 24px;
+	position: relative;
+	bottom: 20px;
+}
+.face {
+	position: relative;
+	left: 500px;
+	bottom: 280px;
+	width: 650px;
+	z-index: -1;	
+}
+.logos {
+	width: 300px;
+	padding-left: 15px;
+	position: relative;
+	bottom: 590px;
+	right: 207px;
+	cursor: pointer;
+}
+.logos img {
+	width: 23px;
+	height: 20px;
+	padding-left: 10px;
+}
+.buttons {
+	position: relative;
+	right: 180px;
+	bottom: 550px;
+}
+.hireme {
+	color: white;
+	width: 140px;
+	height: 50px;
+	background-color: #0E0C38;
+	border: 2px solid #707070;
+	border-radius: 50px;
+	cursor: pointer;
+}
+.bportfolio {
+	color: white;
+	width: 140px;
+	height: 50px;
+	background-color: #0E0C38;
+	border: 2px solid #707070;
+	border-radius: 50px;
+	margin-left: 25px;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #FF0513;
+	transition: 150ms;
+}
+
+.hero-info {
+	position: relative;
+	top: 330px;
+height: 500px;
+}
+.hero-info::before {
+	content: '';
+	background-color: #040221;
+	z-index: -3;
+	position: absolute;
+	width: 180%;
+	height: 2100px;
+	right: -420px;
+	top: -40px;
+
+}
+h2	{
+	color: white ;
+	font-size: 40px;
+	position: relative;
+	top: 200px;
+	right: 170px;
+}
+
+.lorem {
+	color: white;
+	width: 600px;
+	height: 150px;
+	
+	line-height: 35px;
+	position: relative;
+	top: 200px;
+	right: 175px;
+
+
+}
+.lorem2 {
+	color: white;
+	line-height: 35px;
+	position: relative;
+	top: 200px;
+	right: 175px;
+}
+.line {
+	width: 250px;
+ 	border: 1px solid #FF0513;
+ 	position: relative;
+ 	top: 140px;
+ 	right: 100px;
+}
+.CV {
+	color: white;
+	width: 140px;
+	height: 50px;
+	background-color: #0E0C38;
+	border: 2px solid #707070;
+	border-radius: 50px;
+	position: relative;
+	top: 250px;
+	right: 180px;
+	cursor: pointer;
+}
+.layer0 {
+	position: absolute;
+	width: 500px;
+	top: 160px;
+	left: 550px;
+	border: 45px solid #0E0C38;
+}
+h3 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: normal;
+	position: relative;
+	top: 450px;
+	right: 177px;
+}
+.line2 {
+	width: 250px;
+ 	border: 1px solid #FF0513;
+ 	position: relative;
+ 	top: 400px;
+ 	right: 420px;
+}
+.left {
+	color: white;
+	border: 2px solid #707070;
+width: 50px;
+height: 50px;
+border-radius: 100px;
+background-color: #040221;
+cursor: pointer;
+}
+.right {
+	margin-left: 25px;
+	color: white;
+	border: 2px solid #707070;
+width: 50px;
+height: 50px;
+border-radius: 100px;
+background-color: #040221;
+cursor: pointer;
+}
+.leftright {
+	position: relative;
+	top: 368px;
+	left: 1000px;
+	z-index: 5;
+}
+.links a {
+	color: white;
+	font-size: 20px;
+	margin-left: 45px;
+	position: relative;
+	right: 1228px;
+	top: 30px;
+	z-index: 5;
+}
+.links a:hover {
+	color: #FF0513;
+	transition: 400ms color ease;
+}
+.images {
+	z-index: -2;
+	width: 1700px;
+	position: relative;
+	right: 400px;
+
+}
+.images img {
+	width: 400px;
+	position: relative;
+	top: 430px;
+	left: 230px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 50px;
+	margin-top: 50px;
+	cursor: pointer;
+	filter: gray; 
+      -webkit-filter: grayscale(1); 
+   
+}
+ .images img:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+      transition: 800ms;
+    }
+.capabilities {
+	border: 1px solid red;
+	position: relative;
+	top: 1890px;
+	z-index: 1;
+	left: 410px; 
+	font-weight: normal;
+
+}
+.capabilities::after {
+	content: 'rame';
+	position: absolute;
+	background-color: #040221;
+	width: 220%;
+	right: -400px;
+	top: -1px;
+	height: 800px;
+	z-index: -2;
+}
+h1 {
+	color: white;
+}
+.mycp {
+	border: 1.5px solid #FF0513;
+	width: 200px;
+	position: relative;
+	right: 418px;
+	bottom: 10px;
+
+}
+.hero-lorem {
+	height: 70px;
+	color: white;
+	display: flex;
+	text-align: center;
+	position: relative;
+	right: 300px;
+	line-height: 30px;
+}
