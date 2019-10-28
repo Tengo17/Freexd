@@ -305,7 +305,7 @@ cursor: pointer;
 	transition: 400ms color ease;
 }
 .images {
-	z-index: -2;
+	z-index: 2;
 	width: 1700px;
 	position: relative;
 	right: 400px;
@@ -342,13 +342,13 @@ cursor: pointer;
 
 }
 .capabilities::after {
-	content: 'rame';
+	content: '';
 	position: absolute;
 	background-color: #040221;
 	width: 220%;
 	right: -400px;
 	top: -1px;
-	height: 800px;
+	height: 900px;
 	z-index: -2;
 }
 h1 {
@@ -368,6 +368,158 @@ h1 {
 	display: flex;
 	text-align: center;
 	position: relative;
-	right: 300px;
+	right: 290px;
 	line-height: 30px;
 }
+.textp	{
+	color: white;
+}
+.desing {
+	z-index: 4;
+
+	height: 700px;
+	width: 100%;
+	left: 0px;
+	position: relative;
+	top: 1900px;
+	display: flex;
+
+}
+.hero-logos {
+	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+
+}
+h4	{
+color: white;
+font-size: 20px;
+}
+.hero-logos li {
+
+	width: 300px;
+	height: 300px;
+	margin-left: 50px;
+
+}
+.h1 {
+	color: white;
+	position: relative;
+	top: 1900px;
+	z-index: 5;
+	left: 390px;
+}
+.h1::after {
+	z-index: -2;
+	content: '';
+	position: absolute;
+	background-color: black;
+	width: 180%;
+	height: 800px;
+	right: -60px;
+	top: -30px;
+
+}
+.sayshr {
+	border: 1.5px solid #FF0513;
+	z-index: 5;
+	position: relative;
+	top: 1900px;
+	width: 200px;
+	left: 15px;
+}
+.saysp {
+	z-index: 1;
+	color: white;
+	position: relative;
+	top: 1900px;
+	display: flex;
+	text-align: center;
+	left: 120px;
+	line-height: 30px;
+}
+.mappic {
+	z-index: 5;
+	position: absolute;
+	top: 4150px;
+	width: 500px;
+}
+.one {
+	z-index: 5;
+	width: 100px;
+	position: relative;
+	top: 1950px;
+	left: 320px;
+}
+.two {
+	width: 90px;
+	position: relative;
+	z-index: 5;
+	top: 1980px;
+	right: 120px;
+}
+.three {
+	width: 60px;
+	z-index: 5;
+	position: relative;
+	top: 2080px;
+	right: 150px;
+}
+.four {
+	width: 80px;
+	z-index: 5;
+	position: relative;
+	top: 1990px;
+	right: 130px;
+}
+.five {
+	width: 85px;
+	z-index: 5;
+	position: relative;
+	top: 2060px;
+	right: 20px;
+}
+.six {
+	width: 100px;
+	z-index: 5;
+	position: relative;
+	top: 2160px;
+	right: 270px;
+}
+.asset1 {
+	z-index: 5;
+	position: relative;
+	top: 1820px;
+	left: 700px;
+	width: 50px;
+}
+.longtext {
+	color: white;
+	z-index: 5;
+	position: relative;
+	top: 1720px;
+	left: 710px;
+	line-height: 30px;
+}
+.asset2 {
+	z-index: 5;
+	position: relative;
+	top: 1650px;
+	left: 890px;
+	width: 50px;
+}
+h5 {
+	font-size: 20px;
+	color: white;
+	position: relative;
+	z-index: 5;
+	top: 1600px;
+	left: 710px;
+}
+.sarasmith { 
+	font-size: 14px;
+	color: white;
+	position: relative;
+	z-index: 5;
+	top: 1570px;
+	left: 710px; }
