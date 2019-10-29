@@ -350,8 +350,8 @@ cursor: pointer;
 	content: '';
 	position: absolute;
 	background-color: #040221;
-	width: 220%;
-	right: -400px;
+	width: 181%;
+	right: 0px;
 	top: -1px;
 	height: 900px;
 	z-index: -2;
@@ -422,9 +422,9 @@ font-size: 20px;
 	content: '';
 	position: absolute;
 	background-color: black;
-	width: 180%;
+	width: 182%;
 	height: 800px;
-	right: -60px;
+	right: -30px;
 	top: -30px;
 
 }
@@ -549,9 +549,9 @@ h5 {
 	content: '';
 	position: absolute;
 	background-color: #040B33;
-	width: 200%;
+	width: 183%;
 	height: 800px;
-	right: -500px;
+	right: -420px;
 	top: -95px;
 	z-index: -2;
 }
@@ -638,3 +638,40 @@ footer {
 	margin-left: -50px;
 
 }	
+.about {
+	color: white;
+margin: 0 auto;
+margin-left: 910px;
+padding-top: 200px;
+width: 280px;
+display: flex;
+word-spacing: 15px;
+
+}
+.NY {
+color: white;
+margin: 0 auto;
+margin-left: 845px;
+padding-top: 30px;
+width: 500px;
+display: flex;
+word-spacing: 3px;
+}
+.footerlogos {
+	margin: 0 auto;
+	margin-left: 945px;
+	padding-top: 30px;
+	word-spacing: 10px;
+}
+.footerlogos img {
+	width: 30px;
+}
+.footerinfo {
+color: white;
+margin: 0 auto;
+margin-left: 830px;
+padding-top: 90px;
+width: 500px;
+display: flex;
+word-spacing: 3px;
+}
