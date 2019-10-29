@@ -93,19 +93,19 @@ nav ul li:hover {
 }
 .hero-text {
 	position: relative;
-	width: 100%;
+	top: 180px;
+
+	width: 400px;
 	height: 500px;
-	
 
 }
 .some-text {
 	color: white;
-display: block;
-	position: relative;
-	top: 180px;
-	right: 180px;
+	display: block;
+	right: 400px;
 	width: 600px;
 	height: 350px;
+
 }
 .hello {
 	font-size: 35px;
@@ -139,8 +139,8 @@ display: block;
 }
 .face {
 	position: relative;
-	left: 500px;
-	bottom: 280px;
+	left: 600px;
+	bottom: 500px;
 	width: 650px;
 	z-index: -1;	
 }
@@ -148,8 +148,8 @@ display: block;
 	width: 300px;
 	padding-left: 15px;
 	position: relative;
-	bottom: 590px;
-	right: 207px;
+	bottom: 790px;
+	right: 25px;
 	cursor: pointer;
 }
 .logos img {
@@ -159,8 +159,8 @@ display: block;
 }
 .buttons {
 	position: relative;
-	right: 180px;
-	bottom: 550px;
+	right: 0px;
+	bottom: 760px;
 }
 .hireme {
 	color: white;
@@ -207,18 +207,18 @@ h2	{
 	font-size: 40px;
 	position: relative;
 	top: 200px;
-	right: 170px;
+
 }
 
 .lorem {
 	color: white;
 	width: 600px;
 	height: 150px;
-	
+	margin-right: 150px;
 	line-height: 35px;
 	position: relative;
-	top: 200px;
-	right: 175px;
+	top: 150px;
+
 
 
 }
@@ -226,15 +226,15 @@ h2	{
 	color: white;
 	line-height: 35px;
 	position: relative;
-	top: 200px;
-	right: 175px;
+	top: 150px;
+
 }
 .line {
 	width: 250px;
  	border: 1px solid #FF0513;
  	position: relative;
  	top: 140px;
- 	right: 100px;
+ 
 }
 .CV {
 	z-index: 5;
@@ -246,14 +246,14 @@ h2	{
 	border-radius: 50px;
 	position: relative;
 	top: 250px;
-	right: 180px;
+
 	cursor: pointer;
 }
 .layer0 {
 	position: absolute;
 	width: 500px;
 	top: 160px;
-	left: 550px;
+	left: 650px;
 	border: 45px solid #0E0C38;
 }
 h3 {
@@ -262,14 +262,14 @@ h3 {
 	font-weight: normal;
 	position: relative;
 	top: 450px;
-	right: 177px;
+
 }
 .line2 {
 	width: 250px;
  	border: 1px solid #FF0513;
  	position: relative;
  	top: 400px;
- 	right: 420px;
+ 	right: 280px;
 }
 .left {
 	color: white;
@@ -293,7 +293,7 @@ cursor: pointer;
 .leftright {
 	position: relative;
 	top: 368px;
-	left: 1000px;
+	left: 1080px;
 	z-index: 5;
 }
 .links a {
@@ -301,7 +301,7 @@ cursor: pointer;
 	font-size: 20px;
 	margin-left: 45px;
 	position: relative;
-	right: 1228px;
+	right: 1125px;
 	top: 30px;
 	z-index: 5;
 }
@@ -637,4 +637,4 @@ footer {
 	left: 47%;
 	margin-left: -50px;
 
-}
+}	
