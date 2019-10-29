@@ -251,7 +251,7 @@ h2	{
 }
 .layer0 {
 	position: absolute;
-	width: 500px;
+	width: 400px;
 	top: 160px;
 	left: 650px;
 	border: 45px solid #0E0C38;
@@ -261,14 +261,14 @@ h3 {
 	font-size: 30px;
 	font-weight: normal;
 	position: relative;
-	top: 450px;
+	top: 320px;
 
 }
 .line2 {
 	width: 250px;
  	border: 1px solid #FF0513;
  	position: relative;
- 	top: 400px;
+ 	top: 270px;
  	right: 280px;
 }
 .left {
@@ -292,8 +292,8 @@ cursor: pointer;
 }
 .leftright {
 	position: relative;
-	top: 368px;
-	left: 1080px;
+	top: 240px;
+	left: 950px;
 	z-index: 5;
 }
 .links a {
@@ -301,8 +301,8 @@ cursor: pointer;
 	font-size: 20px;
 	margin-left: 45px;
 	position: relative;
-	right: 1125px;
-	top: 30px;
+	right: 990px;
+	top: 15px;
 	z-index: 5;
 }
 .links a:hover {
@@ -313,7 +313,7 @@ cursor: pointer;
 	z-index: 2;
 	width: 1700px;
 	position: relative;
-	right: 400px;
+	right: 392px;
 
 }
 .images img {
@@ -342,7 +342,7 @@ cursor: pointer;
 	position: relative;
 	top: 1890px;
 	z-index: 1;
-	left: 410px; 
+	left: 420px; 
 	font-weight: normal;
 
 }
