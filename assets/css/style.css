@@ -5,7 +5,9 @@
 	list-style: none;
 	font-family: 'Poppins', sans-serif;
 }
-
+html {
+	scroll-behavior: smooth;
+}
 body {
 	max-width: 1084px;
 	margin: 0 auto;
@@ -161,6 +163,9 @@ nav ul li:hover {
 	position: relative;
 	right: 0px;
 	bottom: 760px;
+}
+.buttons a {
+	color: white;
 }
 .hireme {
 	color: white;
