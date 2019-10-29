@@ -5,10 +5,14 @@
 	list-style: none;
 	font-family: 'Poppins', sans-serif;
 }
+
 body {
 	max-width: 1084px;
 	margin: 0 auto;
 	overflow-x: hidden;
+
+
+
 }
 header {
 	position: absolute;
@@ -96,7 +100,7 @@ nav ul li:hover {
 }
 .some-text {
 	color: white;
-	display: block;
+display: block;
 	position: relative;
 	top: 180px;
 	right: 180px;
@@ -392,6 +396,9 @@ h1 {
 	flex-wrap: wrap;
 
 }
+.client {
+	position: relative;
+}
 h4	{
 color: white;
 font-size: 20px;
@@ -442,7 +449,7 @@ font-size: 20px;
 .mappic {
 	z-index: 5;
 	position: absolute;
-	top: 4150px;
+	top: 2150px;
 	width: 500px;
 }
 .one {
@@ -526,16 +533,108 @@ h5 {
 	left: 710px; 
 }
 .together {
-	border: 1px solid red;
 	height: 800px;
 	position: relative;
 	top: 1740px;
 }
 .make {
-	color: black;
+	color: white;
 	margin: 0 auto;
 	width: 400px;
 	display: flex;
 	text-align: center;
 	margin-top: 100px;
+}
+.make::after {
+	content: '';
+	position: absolute;
+	background-color: #040B33;
+	width: 200%;
+	height: 800px;
+	right: -500px;
+	top: -95px;
+	z-index: -2;
+}
+.verticalline {
+	width: 0px;
+	height: 200px;
+	border: 1px solid red;
+	position: absolute;
+	top: -200px;
+	left: 535px;
+}
+.loremipsum {
+	color: white;
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+	margin-top: 15px;
+	line-height: 35px;
+}
+.form {
+margin-top: 30px;
+display: block;
+position: relative;
+left: 127px;
+}
+.inpname, .email, .phone, .budget {
+	width: 400px;
+	height: 50px;
+	margin-bottom: 35px;
+}
+.email, .budget {
+	margin-left: 25px;
+}
+.message {
+	position: relative;
+	width: 832px;
+	height: 100px;
+}
+.message::placeholder {
+position: relative;
+bottom: 30px;
+}
+.btn {
+	position: relative;
+	left: 480px;
+	top: 70px;
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	width: 120px;
+	height: 50px;
+	border-radius: 50px;
+	border: 2px solid #707070;
+	background-color: #040B33;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #FF0513;
+	transition: 600ms;
+}
+.verticalline1 {
+	width: 0px;
+	height: 70px;
+	border: 1px solid red;
+	position: absolute;
+	left: 1045px;
+	bottom: 410px;
+}
+footer {
+	width: 190%;
+	left: -500px;
+	position: relative;
+	top: 1645px;
+	height: 485px;
+	background-color: #040221;
+	z-index: 5;
+}
+.fportfolio {
+	font-size: 60px;
+	font-weight: normal;
+	color: white;
+	position: absolute;
+	left: 47%;
+	margin-left: -50px;
+
 }
